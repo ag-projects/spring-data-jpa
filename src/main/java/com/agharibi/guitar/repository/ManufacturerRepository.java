@@ -1,6 +1,7 @@
 package com.agharibi.guitar.repository;
 
 import com.agharibi.guitar.models.Manufacturer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -15,15 +16,16 @@ public class ManufacturerRepository {
     @PersistenceContext
     private EntityManager entityManager;
 
+    @Autowired
+    private ManufacturerJpaRepository manufacturerJpaRepository;
+
     /**
      *
      * @param manufacturer
      * @return
      */
     public Manufacturer create(Manufacturer manufacturer) {
-        entityManager.persist(manufacturer);
-        entityManager.flush();
-        return manufacturer;
+        return manufacturerJpaRepository.saveAndFlush(manufacturer);
     }
 
     /**
@@ -32,9 +34,7 @@ public class ManufacturerRepository {
      * @return
      */
     public Manufacturer update(Manufacturer manufacturer) {
-        Manufacturer updatedManufacturer = entityManager.merge(manufacturer);
-        entityManager.flush();
-        return updatedManufacturer;
+        return manufacturerJpaRepository.saveAndFlush(manufacturer);
     }
 
     /**
@@ -42,8 +42,7 @@ public class ManufacturerRepository {
      * @param manufacturer
      */
     public void delete(Manufacturer manufacturer) {
-        entityManager.remove(manufacturer);
-        entityManager.flush();
+        manufacturerJpaRepository.delete(manufacturer);
     }
 
     /**
@@ -52,7 +51,7 @@ public class ManufacturerRepository {
      * @return
      */
     public Manufacturer find(Long id) {
-        return entityManager.find(Manufacturer.class, id);
+        return manufacturerJpaRepository.findOne(id);
     }
 
     /**

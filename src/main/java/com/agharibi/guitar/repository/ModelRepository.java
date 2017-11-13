@@ -1,6 +1,7 @@
 package com.agharibi.guitar.repository;
 
 import com.agharibi.guitar.models.Model;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -18,15 +19,16 @@ public class ModelRepository {
     @PersistenceContext
     private EntityManager entityManager;
 
+    @Autowired
+    private ModelJpaRepository modelJpaRepository;
+
     /**
      *
      * @param model
      * @return
      */
     public Model create(Model model) {
-        entityManager.persist(model);
-        entityManager.flush();
-        return model;
+        return modelJpaRepository.saveAndFlush(model);
     }
 
     /**
@@ -35,9 +37,7 @@ public class ModelRepository {
      * @return
      */
     public Model update(Model model) {
-        Model updatedModel = entityManager.merge(model);
-        entityManager.flush();
-        return updatedModel;
+        return modelJpaRepository.saveAndFlush(model);
     }
 
     /**
@@ -45,8 +45,7 @@ public class ModelRepository {
      * @param model
      */
     public void delete(Model model) {
-        entityManager.remove(model);
-        entityManager.flush();
+        modelJpaRepository.delete(model);
     }
 
     /**
@@ -55,7 +54,7 @@ public class ModelRepository {
      * @return
      */
     public Model find(Long id) {
-        return entityManager.find(Model.class, id);
+        return modelJpaRepository.findOne(id);
     }
 
     /**
