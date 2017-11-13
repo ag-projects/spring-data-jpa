@@ -2,6 +2,7 @@ package com.agharibi.guitar;
 
 
 import com.agharibi.guitar.models.Location;
+import com.agharibi.guitar.repository.LocationJpaRepository;
 import com.agharibi.guitar.repository.LocationRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,10 +13,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-
 import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertNotNull;
 
 @ContextConfiguration(locations = {"classpath:com/agharibi/guitar/applicationTests-context.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -24,9 +25,18 @@ public class LocationPersistenceTests {
     @Autowired
     private LocationRepository locationRepository;
 
+    @Autowired
+    private LocationJpaRepository locationJpaRepository;
+
     @PersistenceContext
     private EntityManager entityManager;
 
+
+    @Test
+    public void testFindJpaLocation() throws Exception {
+        List<Location> locations = locationJpaRepository.findAll();
+        assertNotNull(locations);
+    }
 
     @Test
     @Transactional
