@@ -1,7 +1,7 @@
 package com.agharibi.guitar;
 
 import com.agharibi.guitar.models.ModelType;
-import com.agharibi.guitar.repository.ModelTypeRepository;
+import com.agharibi.guitar.repository.ModelTypeJpaRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +19,7 @@ import static junit.framework.Assert.assertEquals;
 public class ModelTypePersistenceTests {
 
     @Autowired
-    private ModelTypeRepository modelTypeRepository;
+    private ModelTypeJpaRepository modelTypeJpaRepository;
 
     @PersistenceContext
     private EntityManager entityManager;
@@ -29,19 +29,19 @@ public class ModelTypePersistenceTests {
     public void testSaveAndGetAndDelete() throws Exception {
         ModelType modelType  = new ModelType();
         modelType.setName("Test Model Type");
-        modelType = modelTypeRepository.create(modelType);
+        modelType = modelTypeJpaRepository.save(modelType);
 
         entityManager.clear();
 
-        ModelType otherModelType = modelTypeRepository.find(modelType.getId());
+        ModelType otherModelType = modelTypeJpaRepository.findOne(modelType.getId());
         assertEquals("Test Model Type", otherModelType.getName());
 
-       // modelTypeRepository.delete(modelType);
+        modelTypeJpaRepository.delete(modelType);
     }
 
     @Test
     public void testFind() throws Exception {
-        ModelType modelType = modelTypeRepository.find(1L);
+        ModelType modelType = modelTypeJpaRepository.findOne(1L);
         assertEquals("Dreadnought Acoustic", modelType.getName());
     }
 }
