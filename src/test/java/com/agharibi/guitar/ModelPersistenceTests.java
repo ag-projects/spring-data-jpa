@@ -13,10 +13,13 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertTrue;
 
 @ContextConfiguration(locations = {"classpath:com/agharibi/guitar/applicationTests-context.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -24,6 +27,9 @@ public class ModelPersistenceTests {
 
     @Autowired
     private ModelRepository modelRepository;
+
+    @Autowired
+    private ModelJpaRepository modelJpaRepository;
 
     @PersistenceContext
     private EntityManager entityManager;
@@ -68,5 +74,16 @@ public class ModelPersistenceTests {
     public void testGetModelsByType() throws Exception {
         List<Model> models = modelRepository.getModelsByType("Electric");
         assertEquals(4, models.size());
+    }
+
+    @Test
+    public void testGetModelsByTypes() throws Exception {
+        List<String> types = Arrays.asList("Electric", "Acoustic");
+        List<Model> models = modelJpaRepository.findByModelTypeNameIn(types);
+
+        models.forEach(model -> {
+            assertTrue(model.getModelType().getName().equals("Electric") ||
+                    model.getModelType().getName().equals("Acoustic"));
+        });
     }
 }

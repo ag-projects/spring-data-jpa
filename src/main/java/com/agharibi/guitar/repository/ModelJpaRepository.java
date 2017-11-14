@@ -10,6 +10,19 @@ import java.util.List;
 @Repository
 public interface ModelJpaRepository extends JpaRepository<Model, Long> {
 
+    /**
+     *
+     * @param low
+     * @param high
+     * @return
+     */
     List<Model> findByPriceGreaterThanEqualAndPriceLessThanEqual(BigDecimal low, BigDecimal high);
+
+    /**
+     *
+     * @param types
+     * @return
+     */
+    List<Model> findByModelTypeNameIn(List<String> types);
 
 }

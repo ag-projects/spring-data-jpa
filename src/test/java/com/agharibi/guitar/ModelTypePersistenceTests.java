@@ -2,6 +2,7 @@ package com.agharibi.guitar;
 
 import com.agharibi.guitar.models.ModelType;
 import com.agharibi.guitar.repository.ModelTypeJpaRepository;
+import com.agharibi.guitar.repository.ModelTypeRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,10 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
+import java.util.List;
+
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertNull;
 
 @ContextConfiguration(locations = {"classpath:com/agharibi/guitar/applicationTests-context.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
