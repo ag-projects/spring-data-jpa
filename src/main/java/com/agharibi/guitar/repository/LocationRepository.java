@@ -55,7 +55,7 @@ public class LocationRepository {
     }
 
     /**
-     *
+     * Custom Finder
      * @param name
      * @return
      */

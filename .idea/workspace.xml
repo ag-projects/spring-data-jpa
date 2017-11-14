@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9d5169-d0f5-41e0-bb9a-f1edfad13fb2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/h2/db.h2.db" afterPath="$PROJECT_DIR$/src/main/resources/h2/db.h2.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/agharibi/guitar/repository/LocationJpaRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/guitar/repository/LocationJpaRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/agharibi/guitar/repository/ManufacturerJpaRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/guitar/repository/ManufacturerJpaRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/agharibi/guitar/repository/ModelJpaRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/guitar/repository/ModelJpaRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/agharibi/guitar/repository/ModelTypeJpaRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/guitar/repository/ModelTypeJpaRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/h2/db.h2.db" afterPath="$PROJECT_DIR$/target/classes/h2/db.h2.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelTypeJpaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelTypeJpaRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/LocationPersistenceTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/LocationPersistenceTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ModelRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelRepository.java">
+      <file leaf-file-name="LocationPersistenceTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/agharibi/guitar/LocationPersistenceTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
-              <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="37" />
               <folding>
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationJpaRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,15 +83,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/LocationPersistenceTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelTypeJpaRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ModelTypePersistenceTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelTypeJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/LocationPersistenceTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java" />
       </list>
     </option>
   </component>
@@ -105,9 +118,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1874" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="7" />
+    <option name="y" value="23" />
     <option name="width" value="1822" />
     <option name="height" value="1031" />
   </component>
@@ -184,6 +197,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="h2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-jpa-utility" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-data-jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,8 +265,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.agharibi.guitar in spring-jpa-utility">
-    <configuration name="LocationPersistenceTests.testFindJpaLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LocationPersistenceTests">
+    <configuration name="LocationPersistenceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.agharibi.guitar.*" />
@@ -257,7 +278,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
       <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.LocationPersistenceTests" />
-      <option name="METHOD_NAME" value="testFindJpaLocation" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LocationPersistenceTests.testFindJpaAnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.guitar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-jpa-utility" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.LocationPersistenceTests" />
+      <option name="METHOD_NAME" value="testFindJpaAnd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -270,7 +316,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ModelTypePersistenceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocationPersistenceTests.testFindJpaNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.agharibi.guitar.*" />
@@ -281,9 +327,59 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
-      <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.ModelTypePersistenceTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.LocationPersistenceTests" />
+      <option name="METHOD_NAME" value="testFindJpaNot" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LocationPersistenceTests.testFindJpaOr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.guitar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-jpa-utility" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.LocationPersistenceTests" />
+      <option name="METHOD_NAME" value="testFindJpaOr" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LocationPersistenceTests.testFindWithLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.guitar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-jpa-utility" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.LocationPersistenceTests" />
+      <option name="METHOD_NAME" value="testFindWithLike" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -335,41 +431,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration name="com.agharibi.guitar in spring-jpa-utility" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.agharibi.guitar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-jpa-utility" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.com.agharibi.guitar in spring-jpa-utility" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindJpaLocation" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ModelTypePersistenceTests" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindJpaAnd" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindJpaOr" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindJpaNot" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindWithLike" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.com.agharibi.guitar in spring-jpa-utility" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ModelTypePersistenceTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindJpaLocation" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindWithLike" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindJpaNot" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindJpaOr" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LocationPersistenceTests.testFindJpaAnd" />
       </list>
     </recent_temporary>
   </component>
@@ -383,41 +458,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510611432306</updated>
-      <workItem from="1510611435823" duration="3833000" />
+      <workItem from="1510611435823" duration="8362000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocationPersistenceTests_testFindJpaLocation - 2017.11.13 at 14h 44m 03s.xml">
-      <configuration name="LocationPersistenceTests.testFindJpaLocation" configurationId="JUnit" />
+    <history-entry file="LocationPersistenceTests - 2017.11.13 at 17h 20m 54s.xml">
+      <configuration name="LocationPersistenceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTypePersistenceTests - 2017.11.13 at 15h 06m 11s.xml">
-      <configuration name="ModelTypePersistenceTests" configurationId="JUnit" />
+    <history-entry file="LocationPersistenceTests - 2017.11.13 at 17h 22m 11s.xml">
+      <configuration name="LocationPersistenceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTypePersistenceTests - 2017.11.13 at 15h 06m 57s.xml">
-      <configuration name="ModelTypePersistenceTests" configurationId="JUnit" />
+    <history-entry file="LocationPersistenceTests - 2017.11.13 at 17h 22m 29s.xml">
+      <configuration name="LocationPersistenceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTypePersistenceTests - 2017.11.13 at 15h 07m 18s.xml">
-      <configuration name="ModelTypePersistenceTests" configurationId="JUnit" />
+    <history-entry file="LocationPersistenceTests - 2017.11.13 at 17h 23m 07s.xml">
+      <configuration name="LocationPersistenceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_agharibi_guitar_in_spring-jpa-utility - 2017.11.13 at 14h 17m 38s.xml">
-      <configuration name="com.agharibi.guitar in spring-jpa-utility" configurationId="JUnit" />
+    <history-entry file="LocationPersistenceTests - 2017.11.13 at 17h 41m 25s.xml">
+      <configuration name="LocationPersistenceTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_agharibi_guitar_in_spring-jpa-utility - 2017.11.13 at 14h 46m 05s.xml">
-      <configuration name="com.agharibi.guitar in spring-jpa-utility" configurationId="JUnit" />
+    <history-entry file="LocationPersistenceTests_testFindJpaNot - 2017.11.13 at 17h 29m 31s.xml">
+      <configuration name="LocationPersistenceTests.testFindJpaNot" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_agharibi_guitar_in_spring-jpa-utility - 2017.11.13 at 15h 23m 40s.xml">
-      <configuration name="com.agharibi.guitar in spring-jpa-utility" configurationId="JUnit" />
+    <history-entry file="LocationPersistenceTests_testFindJpaOr - 2017.11.13 at 17h 20m 18s.xml">
+      <configuration name="LocationPersistenceTests.testFindJpaOr" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_agharibi_guitar_in_spring-jpa-utility - 2017.11.13 at 15h 26m 34s.xml">
-      <configuration name="com.agharibi.guitar in spring-jpa-utility" configurationId="JUnit" />
+    <history-entry file="LocationPersistenceTests_testFindWithLike - 2017.11.13 at 17h 33m 53s.xml">
+      <configuration name="LocationPersistenceTests.testFindWithLike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocationPersistenceTests_testFindWithLike - 2017.11.13 at 17h 35m 17s.xml">
+      <configuration name="LocationPersistenceTests.testFindWithLike" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocationPersistenceTests_testFindWithLike - 2017.11.13 at 17h 40m 55s.xml">
+      <configuration name="LocationPersistenceTests.testFindWithLike" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3833000" />
+    <option name="totallyTimeSpent" value="8362000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1874" y="32" width="1822" height="1031" extended-state="0" />
+    <frame x="41" y="23" width="1399" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -427,15 +509,16 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977527" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32279316" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24686809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -446,7 +529,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -481,40 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="29" column="70" lean-forward="false" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/agharibi/guitar/LocationPersistenceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -567,33 +615,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelTypeJpaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="53" column="53" lean-forward="false" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
           <folding>
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="e#1225#1226#0" expanded="false" />
+            <element signature="e#1285#1286#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelTypeJpaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="85" lean-forward="false" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+        <state relative-caret-position="105">
+          <caret line="7" column="80" lean-forward="false" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -602,17 +640,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="7" column="71" lean-forward="false" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="79" lean-forward="false" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
+        <state relative-caret-position="675">
           <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
           <folding>
             <element signature="e#775#776#0" expanded="true" />
@@ -623,6 +679,44 @@
             <element signature="e#1125#1126#0" expanded="true" />
             <element signature="e#1214#1215#0" expanded="true" />
             <element signature="e#1267#1268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/h2/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="78" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/agharibi/guitar/LocationPersistenceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
