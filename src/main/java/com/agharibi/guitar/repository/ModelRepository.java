@@ -64,12 +64,7 @@ public class ModelRepository {
      * @return
      */
     public List<Model> getModelsInPriceRange(BigDecimal lowest, BigDecimal highest) {
-        Query query = entityManager
-                .createQuery("select m from Model m where m.price >= :lowest and m.price <= :highest");
-
-        query.setParameter("lowest", lowest);
-        query.setParameter("highest", highest);
-        return query.getResultList();
+        return modelJpaRepository.findByPriceGreaterThanEqualAndPriceLessThanEqual(lowest, highest);
     }
 
     /**

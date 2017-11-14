@@ -60,10 +60,7 @@ public class ManufacturerRepository {
      * @return
      */
     public List<Manufacturer> getManufacturersFoundedBeforeDate(Date date) {
-        Query query = entityManager
-                .createQuery("select m from Manufacturer m where m.foundedDate < :date");
-        query.setParameter("date", date);
-        return query.getResultList();
+        return manufacturerJpaRepository.findByFoundedDateBefore(date);
     }
 
     /**

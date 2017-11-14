@@ -1,6 +1,7 @@
 package com.agharibi.guitar;
 
 import com.agharibi.guitar.models.Model;
+import com.agharibi.guitar.repository.ModelJpaRepository;
 import com.agharibi.guitar.repository.ModelRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;

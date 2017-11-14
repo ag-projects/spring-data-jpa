@@ -47,7 +47,7 @@ public interface LocationJpaRepository extends JpaRepository<Location, Long> {
     List<Location> findByStateAndCountry(String state, String country);
 
     /**
-     * 
+     *
      * @param state
      * @return
      */
