@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9b9d5169-d0f5-41e0-bb9a-f1edfad13fb2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/h2/db.h2.db" afterPath="$PROJECT_DIR$/src/main/resources/h2/db.h2.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/LocationJpaRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/models/Manufacturer.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/models/Manufacturer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ModelPersistenceTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ModelPersistenceTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/h2/data.sql" afterPath="$PROJECT_DIR$/src/main/resources/h2/data.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/h2/db.trace.db" afterPath="$PROJECT_DIR$/src/main/resources/h2/db.trace.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ManufacturerPersistenceTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ManufacturerPersistenceTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +40,18 @@
       <file leaf-file-name="ManufacturerPersistenceTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ManufacturerPersistenceTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="61">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/h2/data.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="58" column="127" lean-forward="true" selection-start-line="58" selection-start-column="102" selection-end-line="58" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -51,8 +60,8 @@
       <file leaf-file-name="ManufacturerJpaRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,10 +72,14 @@
       <file leaf-file-name="Manufacturer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/models/Manufacturer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="10" column="117" lean-forward="false" selection-start-line="10" selection-start-column="117" selection-end-line="10" selection-end-column="117" />
               <folding>
-                <marker date="1510599501000" expanded="true" signature="259:578" ph="SELECT m.id,... Manufacturer" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2085#2086#0" expanded="true" />
+                <element signature="e#2130#2131#0" expanded="true" />
+                <element signature="e#2166#2167#0" expanded="true" />
+                <marker date="1510626506000" expanded="true" signature="259:588" ph="SELECT m.id,... Manufacturer" />
               </folding>
             </state>
           </provider>
@@ -114,8 +127,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ModelPersistenceTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ModelJpaRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/h2/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agharibi/guitar/models/Manufacturer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ManufacturerPersistenceTests.java" />
       </list>
     </option>
   </component>
@@ -288,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ManufacturerPersistenceTests">
+  <component name="RunManager" selected="JUnit.ManufacturerPersistenceTests.testTrueFalse">
     <configuration name="ManufacturerPersistenceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -327,6 +343,31 @@
       <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
       <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.ManufacturerPersistenceTests" />
       <option name="METHOD_NAME" value="testGetManufacturersFoundedBeforeDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ManufacturerPersistenceTests.testTrueFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.guitar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-jpa-utility" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.ManufacturerPersistenceTests" />
+      <option name="METHOD_NAME" value="testTrueFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -389,31 +430,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ModelPersistenceTests.testGetModelsInPriceRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.agharibi.guitar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-jpa-utility" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.agharibi.guitar" />
-      <option name="MAIN_CLASS_NAME" value="com.agharibi.guitar.ModelPersistenceTests" />
-      <option name="METHOD_NAME" value="testGetModelsInPriceRange" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -455,19 +471,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsInPriceRange" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsByPriceRangeAndWoodType" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsByType" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests.testGetManufacturersFoundedBeforeDate" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsByPriceRangeAndWoodType" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsByType" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests.testGetManufacturersFoundedBeforeDate" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests.testTrueFalse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests.testGetManufacturersFoundedBeforeDate" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsByType" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsByPriceRangeAndWoodType" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsInPriceRange" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests.testTrueFalse" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ManufacturerPersistenceTests.testGetManufacturersFoundedBeforeDate" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsByType" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ModelPersistenceTests.testGetModelsByPriceRangeAndWoodType" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +497,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510611432306</updated>
-      <workItem from="1510611435823" duration="10283000" />
+      <workItem from="1510611435823" duration="11451000" />
     </task>
     <servers />
   </component>
@@ -489,11 +505,23 @@
     <history-entry file="ManufacturerPersistenceTests - 2017.11.13 at 18h 16m 21s.xml">
       <configuration name="ManufacturerPersistenceTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ManufacturerPersistenceTests - 2017.11.13 at 18h 23m 05s.xml">
+      <configuration name="ManufacturerPersistenceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManufacturerPersistenceTests - 2017.11.13 at 18h 27m 04s.xml">
+      <configuration name="ManufacturerPersistenceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManufacturerPersistenceTests - 2017.11.13 at 18h 28m 54s.xml">
+      <configuration name="ManufacturerPersistenceTests" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ManufacturerPersistenceTests_testGetManufacturersFoundedBeforeDate - 2017.11.13 at 18h 13m 37s.xml">
       <configuration name="ManufacturerPersistenceTests.testGetManufacturersFoundedBeforeDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelPersistenceTests_testGetModelsByPriceRangeAndWoodType - 2017.11.13 at 18h 03m 04s.xml">
-      <configuration name="ModelPersistenceTests.testGetModelsByPriceRangeAndWoodType" configurationId="JUnit" />
+    <history-entry file="ManufacturerPersistenceTests_testTrueFalse - 2017.11.13 at 18h 34m 36s.xml">
+      <configuration name="ManufacturerPersistenceTests.testTrueFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ManufacturerPersistenceTests_testTrueFalse - 2017.11.13 at 18h 36m 51s.xml">
+      <configuration name="ManufacturerPersistenceTests.testTrueFalse" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ModelPersistenceTests_testGetModelsByType - 2017.11.13 at 18h 03m 11s.xml">
       <configuration name="ModelPersistenceTests.testGetModelsByType" configurationId="JUnit" />
@@ -504,21 +532,9 @@
     <history-entry file="ModelPersistenceTests_testGetModelsByType - 2017.11.13 at 18h 08m 24s.xml">
       <configuration name="ModelPersistenceTests.testGetModelsByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelPersistenceTests_testGetModelsInPriceRange - 2017.11.13 at 17h 57m 17s.xml">
-      <configuration name="ModelPersistenceTests.testGetModelsInPriceRange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelPersistenceTests_testGetModelsInPriceRange - 2017.11.13 at 17h 59m 07s.xml">
-      <configuration name="ModelPersistenceTests.testGetModelsInPriceRange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelPersistenceTests_testGetModelsInPriceRange - 2017.11.13 at 17h 59m 48s.xml">
-      <configuration name="ModelPersistenceTests.testGetModelsInPriceRange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelPersistenceTests_testGetModelsInPriceRange - 2017.11.13 at 18h 02m 58s.xml">
-      <configuration name="ModelPersistenceTests.testGetModelsInPriceRange" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10283000" />
+    <option name="totallyTimeSpent" value="11451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1822" height="1031" extended-state="0" />
@@ -532,7 +548,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977527" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49945235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2902519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -668,14 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/h2/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="78" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/agharibi/guitar/LocationPersistenceTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -725,16 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/models/Manufacturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <marker date="1510599501000" expanded="true" signature="259:578" ph="SELECT m.id,... Manufacturer" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -751,20 +749,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/models/Manufacturer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="117" lean-forward="false" selection-start-line="10" selection-start-column="117" selection-end-line="10" selection-end-column="117" />
+          <folding>
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2085#2086#0" expanded="true" />
+            <element signature="e#2130#2131#0" expanded="true" />
+            <element signature="e#2166#2167#0" expanded="true" />
+            <marker date="1510626506000" expanded="true" signature="259:588" ph="SELECT m.id,... Manufacturer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/guitar/repository/ManufacturerJpaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/h2/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="58" column="127" lean-forward="true" selection-start-line="58" selection-start-column="102" selection-end-line="58" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/agharibi/guitar/ManufacturerPersistenceTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="61">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>

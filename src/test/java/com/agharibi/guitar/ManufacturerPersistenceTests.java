@@ -1,6 +1,7 @@
 package com.agharibi.guitar;
 
 import com.agharibi.guitar.models.Manufacturer;
+import com.agharibi.guitar.repository.ManufacturerJpaRepository;
 import com.agharibi.guitar.repository.ManufacturerRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,6 +20,21 @@ public class ManufacturerPersistenceTests {
 
     @Autowired
     private ManufacturerRepository manufacturerRepository;
+
+    @Autowired
+    private ManufacturerJpaRepository manufacturerJpaRepository;
+
+    @Test
+    public void testTrueFalse() throws Exception {
+        List<Manufacturer> inactiveList = manufacturerJpaRepository.findByActiveFalse();
+        assertEquals(1, inactiveList.size());
+        assertEquals("Gibson Guitar Corporation", inactiveList.get(0).getName());
+
+        List<Manufacturer> activeList = manufacturerJpaRepository.findByActiveTrue();
+        assertEquals(1, activeList.size());
+        assertEquals("Fender Musical Instruments Corporation", activeList.get(0).getName());
+
+    }
 
     @Test
     public void testGetManufacturersFoundedBeforeDate() throws Exception {

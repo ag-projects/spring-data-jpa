@@ -9,5 +9,24 @@ import java.util.List;
 
 @Repository
 public interface ManufacturerJpaRepository extends JpaRepository<Manufacturer, Long> {
+
+    /**
+     *
+     * @param date
+     * @return
+     */
     List<Manufacturer> findByFoundedDateBefore(Date date);
+
+    /**
+     *
+     * @return
+     */
+    List<Manufacturer> findByActiveTrue();
+
+    /**
+     *
+     * @return
+     */
+    List<Manufacturer> findByActiveFalse();
+
 }
