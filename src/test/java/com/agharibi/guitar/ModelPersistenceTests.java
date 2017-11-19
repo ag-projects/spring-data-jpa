@@ -75,6 +75,7 @@ public class ModelPersistenceTests {
     public void testGetModelsByType() throws Exception {
         List<Model> models = modelRepository.getModelsByType("Electric");
         assertEquals(4, models.size());
+        modelJpaRepository.aCustomMethod();
     }
 
     @Test
