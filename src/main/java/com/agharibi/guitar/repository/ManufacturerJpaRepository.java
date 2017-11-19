@@ -29,4 +29,11 @@ public interface ManufacturerJpaRepository extends JpaRepository<Manufacturer, L
      */
     List<Manufacturer> findByActiveFalse();
 
+    /**
+     *
+     * @param name
+     * @return
+     */
+    List<Manufacturer> getAllThatSellAcoustics(String name);
+
 }

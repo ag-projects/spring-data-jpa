@@ -75,15 +75,7 @@ public class ModelRepository {
      * @return
      */
     public List<Model> getModelsByPriceRangeAndWoodType(BigDecimal lowest, BigDecimal highest, String wood) {
-        Query query = entityManager
-                .createQuery("select m from Model m where m.price >= :lowest " +
-                        "and m.price <= :highest and m.woodType like :wood");
-
-        query.setParameter("lowest", lowest);
-        query.setParameter("highest", highest);
-        query.setParameter("wood", "%" + wood + "%");
-
-        return query.getResultList();
+       return modelJpaRepository.queryByPriceRangeAAndWoodType(lowest, highest, "%" + wood + "%");
     }
 
     /**
@@ -92,9 +84,7 @@ public class ModelRepository {
      * @return
      */
     public List<Model> getModelsByType(String modelType) {
-        Query namedQuery = entityManager.createNamedQuery("Model.findAllModelsByType");
-        namedQuery.setParameter("name", modelType);
-        return namedQuery.getResultList();
+        return modelJpaRepository.findAllModelsByType(modelType);
     }
 
     /**

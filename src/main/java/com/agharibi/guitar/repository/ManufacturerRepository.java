@@ -80,8 +80,6 @@ public class ManufacturerRepository {
      * @return
      */
     public List<Manufacturer> getManufacturersThatSellModelsOfType(String modelType) {
-        Query query = entityManager.createNamedQuery("Manufacturer.getAllThatSellAcoustics");
-        query.setParameter(1, modelType);
-        return query.getResultList();
+        return manufacturerJpaRepository.getAllThatSellAcoustics(modelType);
     }
 }
