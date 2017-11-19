@@ -6,6 +6,7 @@ import com.agharibi.guitar.repository.ModelRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
@@ -64,10 +65,10 @@ public class ModelPersistenceTests {
 
     @Test
     public void testGetModelsByPriceRangeAndWoodType() throws Exception {
-        List<Model> models = modelRepository.getModelsByPriceRangeAndWoodType(
+        Page<Model> models = modelRepository.getModelsByPriceRangeAndWoodType(
                 BigDecimal.valueOf(1000L), BigDecimal.valueOf(2000L), "Maple");
 
-        assertEquals(3, models.size());
+        assertEquals(2, models.getSize());
     }
 
     @Test
